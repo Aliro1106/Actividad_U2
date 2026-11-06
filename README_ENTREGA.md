@@ -1,16 +1,21 @@
 # Hito 2 | README de la entrega
 
-Equipo e integrantes: completar.
-Versión entregada y fecha: completar.
+Equipo e integrantes: Aliro Torrejón Aquino.
+Versión entregada: 1.0
+Fecha: Viernes 06 de Noviembre 2026
 
 ## Propósito y alcance
 Complete el problema, las hipótesis y los límites. Datos de origen simulado.
+Este proyecto consiste en analizar el comportamiento de una barra axial, sometida a cargas longitudinales, mediante un modelo de elasticidad lineal. Se busca determinar los desplazamientos nodales, comprobar la consistencia física y númerica del modelo propuesto, realizar un barrido de parámetros y comparar el rendimiento de dos estrategias de cálculos utilizadas para resolver dicho modelo: resolución mediante bucles o mediante opreaciones vectoriales.
+
+El modelo considera pequeñas deformaciones, se trabaje en comportamiento elástico lineal, secciones transversales constantes y ausencia de cargas distribuidas. Los datos utilizados son simulados y corresponden a diversas combinaciones de áreas de sección y cargas aplicadas. 
+
 
 ## Archivos
-- Hito2.ipynb: notebook del equipo.
-- barras_1000_entradas.csv: original preservado.
-- resultados.csv: entradas y respuestas del barrido.
-- tiempos.csv: mediciones individuales del experimento de rendimiento.
+- Hito2.ipynb: notebook del equipo. En el se encuentra el desarrollo, los cálculos, las comprobaciones, los gráficos y los resultados de la comparación se soluciones mediante bucles y vectorización con Numpy.
+- barras_1000_entradas.csv: Archivo original con las 1000 combinaciones de parámetros de entrada (áreas y cargas). el archivo se conserva intacto.
+- resultados.csv: Archivo generado con las entradas y los desplazamientos obtenidos para cada combinación del barrido.
+- tiempos.csv: mediciones individuales del experimento de rendimiento, para las soluciones mediante ciclos y vectorización.
 - Otros archivos imprescindibles: identificar, si corresponden.
 Los PDF se entregan separados en Moodle.
 
