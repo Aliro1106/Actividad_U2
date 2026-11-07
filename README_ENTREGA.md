@@ -2,7 +2,7 @@
 
 Equipo e integrantes: Aliro Torrejón Aquino.
 Versión entregada: 1.0
-Fecha: Viernes 06 de Noviembre 2026
+Fecha: Sábado 07 de Noviembre 2026
 
 ## Propósito y alcance
 Complete el problema, las hipótesis y los límites. Datos de origen simulado.
