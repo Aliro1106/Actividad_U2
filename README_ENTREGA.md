@@ -20,12 +20,11 @@ El modelo considera pequeñas deformaciones, se trabaje en comportamiento elást
 Los PDF se entregan separados en Moodle.
 
 ## Reproducción desde cero
-1. Indique como abrir el notebook y cargar las entradas en Colab.
-2. Indique el orden de ejecución, archivos generados y modo de obtenerlos.
-3. Identifique las comprobaciones y donde ver sus resultados.
-4. Registre la fecha y el resultado de la última ejecución limpia.
-No suponga acceso a su sesión anterior, a rutas de su computador o a enlaces con permisos privados.
-
+1. Descargar los archivos del repositorio y abrir Hito2.ipynb mediante Google Colab
+2. Cargar el archivo "barras_1000_entradas.csv" en el panel de archivos de la sesión en Colab
+3. Ejecutar todas las celdas del notebook en orden, desde el inicio hasta el final.
+4. Durante la ejecución se realizan las comprobaciones numéricas del modelo, el barrido de parámetros, la generación de resultados y el experimento de rendimiento.
+5. Loa archivos "resultados.csv","tiempos.csv" se generan mediante las celdas correspondientes del notebook. Se pueden descargar desde el panel de archivos de Colab.
 ## Entorno
 Versiones efectivamente usadas de Python, NumPy, Pandas y Matplotlib: completar.
 Tipo numérico y recurso de cómputo: completar.
