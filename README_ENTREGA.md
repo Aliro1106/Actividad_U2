@@ -26,12 +26,19 @@ Los PDF se entregan separados en Moodle.
 4. Durante la ejecución se realizan las comprobaciones numéricas del modelo, el barrido de parámetros, la generación de resultados y el experimento de rendimiento.
 5. Loa archivos "resultados.csv","tiempos.csv" se generan mediante las celdas correspondientes del notebook. Se pueden descargar desde el panel de archivos de Colab.
 ## Entorno
-Versiones efectivamente usadas de Python, NumPy, Pandas y Matplotlib: completar.
-Tipo numérico y recurso de cómputo: completar.
+- Python: 3.13.18.
+- NumPy: 2.4.6.
+- Pandas: 2.2.3.
+- Matplotlib: 3.10.0.
+- Entorno de ejecución: Google Colab
+- Tipo numérico utilizado: float de punto flotante.
+- Recurso de cómputo: CPU, sin utilización de GPU ni TPU.
 
 ## Fuentes, contribuciones y uso de IA
-Complete las fuentes consultadas, que hizo cada integrante y el uso o no uso de asistentes.
-Si se utilizó IA: herramienta, propósito, sugerencia, decisión y comprobación técnica.
+Se utilizó ChatGPT (OpenAI) como herramienta de apoyo durante el desarrollo del hito 2. Su utilización tuvo como propósito facilitar la comprensión y revisión del código Python, particularmente en la implementación de ciclos, operaciones vectorizadas con NumPy, comprobaciones numéricas y generación de gráficos.
+También se solicitó apoyo para identificar y corregir posibles errores de código, comprender las mediciones del experimento de rendimiento e interpretar los resultados obtenidos.
+Las sugerencias obtenidas fueron revisadas y adaptadas a criterio según las necesidades del presente trabajo. Su funcionamiento se comprobó mediante la ejecución del notebook, la revisión de los resultados obtenidos y la comparación de los desplazamientos calculados con las solución analítica de referencia. La responsabilidad sobre el contenido, las decisiones de implementación, la verificación de los resultados corresponde al autor del trabajo.
+
 
 ## Retroalimentación
 Observación recibida, cambio y prueba posterior: completar con hechos reales.
