@@ -38,6 +38,7 @@ Los PDF se entregan separados en Moodle.
 Se utilizó ChatGPT (OpenAI) como herramienta de apoyo durante el desarrollo del hito 2. Su utilización tuvo como propósito facilitar la comprensión y revisión del código Python, particularmente en la implementación de ciclos, operaciones vectorizadas con NumPy, comprobaciones numéricas y generación de gráficos.
 También se solicitó apoyo para identificar y corregir posibles errores de código, comprender las mediciones del experimento de rendimiento e interpretar los resultados obtenidos.
 Las sugerencias obtenidas fueron revisadas y adaptadas a criterio según las necesidades del presente trabajo. Su funcionamiento se comprobó mediante la ejecución del notebook, la revisión de los resultados obtenidos y la comparación de los desplazamientos calculados con las solución analítica de referencia. La responsabilidad sobre el contenido, las decisiones de implementación, la verificación de los resultados corresponde al autor del trabajo.
+Se utilizó Gemini como herramienta de apoyo para adaptar y trasladar el código desarrollado al formato LaTeX, facilitando su presentación y organización en el documento técnico.
 
 
 ## Retroalimentación
